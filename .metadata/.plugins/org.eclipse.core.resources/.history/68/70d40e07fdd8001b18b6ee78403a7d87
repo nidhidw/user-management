@@ -1,0 +1,9 @@
+package com.ust.user.entity;
+
+public class UserType {
+	
+	int id;
+	String type;
+	
+
+}

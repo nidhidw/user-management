@@ -1,0 +1,5 @@
+package com.ust.user.exception;
+
+public class IncompleteDetailsException {
+
+}

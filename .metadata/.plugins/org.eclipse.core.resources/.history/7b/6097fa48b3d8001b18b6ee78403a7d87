@@ -1,0 +1,12 @@
+package com.ust.user.entity;
+
+public class LoginInfo {
+
+	public static void main(String[] args) {
+		
+		String username;
+		String password;
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.ust.user.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.ust.user.entity.User;
+
+public interface UserService {
+
+	public User saveUser(User user);
+
+    public Optional<User> findByUserId(int id);
+    
+    public User updateByUserId(int id);
+    
+    public void deleteByUserId(int id);
+
+    public void getAllUser();
+}

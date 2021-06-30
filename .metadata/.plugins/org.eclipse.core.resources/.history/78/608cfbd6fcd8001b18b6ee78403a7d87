@@ -1,0 +1,5 @@
+package com.ust.user.entity;
+
+public class UserDetails {
+
+}
