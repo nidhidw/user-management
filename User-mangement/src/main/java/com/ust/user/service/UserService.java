@@ -12,11 +12,6 @@ import com.ust.user.exception.UserNotFoundException;
 
 public interface UserService {
 	
-//	public boolean addUser(User user) throws UserExistsException;
-//	public boolean deleteUser(User user) throws IncompleteDetailsException,InvalidRoleException,InvalidDateException,  UserNotFoundException;
-//	public boolean updateUser(User user) throws UserNotFoundException;
-//	public List<User> getallUser() throws UserNotFoundException;
-//	public List<User> getById(User user)throws UserNotFoundException;
 
 	public User saveUser(User user);
 

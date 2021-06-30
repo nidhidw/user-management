@@ -19,9 +19,9 @@ public class User {
 
 	private int role_id;
 
-	Date created_date;
+	String created_date;
 
-	Date update_date;
+	String update_date;
 
 	public int getId() {
 		return id;
@@ -39,19 +39,31 @@ public class User {
 		this.role_id = role_id;
 	}
 
-	public Date getCreated_date() {
+	public String getCreated_date() {
 		return created_date;
 	}
 
-	public void setCreated_date(Date created_date) {
+	public void setCreated_date(String created_date) {
 		this.created_date = created_date;
 	}
 
-	public Date getUpdate_date() {
+	public String getUpdate_date() {
 		return update_date;
 	}
 
-	public void setUpdate_date(Date update_date) {
+	public void setUpdate_date(String update_date) {
+		this.update_date = update_date;
+	}
+	
+	public User() {
+		
+	}
+
+	public User(int id, int role_id, String created_date, String update_date) {
+		super();
+		this.id = id;
+		this.role_id = role_id;
+		this.created_date = created_date;
 		this.update_date = update_date;
 	}
 
